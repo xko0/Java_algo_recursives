@@ -29,7 +29,6 @@ var buildRes = function (points) {
   }
   return res;
 };
-
 var isValid = function (oldPoints, newPoint) {
   var len = oldPoints.length;
   for (var i = 0; i < len; i++) {
